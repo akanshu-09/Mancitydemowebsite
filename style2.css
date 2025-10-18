@@ -1,0 +1,17 @@
+img{
+    display: block;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+div{
+    align-content: center;
+    background-color: skyblue;
+}
+h4{
+    background-color: lightskyblue;
+    color: black;
+    padding: 12px;
+    text-align: center;
+}

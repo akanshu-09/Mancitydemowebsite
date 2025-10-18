@@ -1,0 +1,44 @@
+body{
+    background-color:rgb(254, 254, 224) ;
+}
+h1 {
+    background-color: lightskyblue;
+    color: black; /* makes the text readable */
+    padding: 10px; /* optional, adds some spacing around the text */
+    text-align: center; /* optional, centers the header text */
+}
+#yearinput
+{
+    font-size: large;
+}
+#btncontainer{
+    text-align: center;
+}
+
+.buttons{
+    padding: 5px 20px;
+    font-size: 1.5 em;
+    border-radius: 5px;
+    border-color: black;
+    background-color:antiquewhite;
+    cursor: pointer;
+}
+
+#agelabel{
+    text-align: center;
+}
+
+h4{
+    background-color: lightskyblue;
+    color: black;
+    padding: 12px;
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
