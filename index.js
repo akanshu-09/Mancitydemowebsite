@@ -2,13 +2,13 @@
 // //window.alert(`you can't do that buddy`)
 document.getElementById(`All rights reserved`).textContent="2025 Manchester City All copyright rights reserved.";
 
-// let emailid;
-// emailid = window.prompt(`Enter`);
-// console.log(emailid);
+let emailid;
+emailid = window.prompt(`Enter`);
+console.log(emailid);
 document.getElementById("mybutton").onclick= function()
 {
     emailid = document.getElementById("emailid").value;
-    // console.log(emailid);
+    console.log(emailid);
     document.getElementById("contactid").textContent=`We'll contact you at ${emailid}. Thanks for visiting`
 
 }
@@ -42,4 +42,5 @@ document.getElementById(`resetbtn`).onclick = function()
     yearcount = 2000;
     document.getElementById(`yearinput`).textContent = yearcount;
 }
+
 
