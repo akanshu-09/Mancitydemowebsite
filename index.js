@@ -13,16 +13,16 @@ document.getElementById("mybutton").onclick= function()
 
 }
 
-// let length = window.prompt(`Enter length of rectangle:`)
-// let breadth = window.prompt(`ENter breadth`);
-// let perimeter = 2*(length+breadth);
-// window.alert(`Perimeter: ${perimeter}`);
-// let area = length*breadth;
-// window.alert(`Area: ${area}`);
+let length = window.prompt(`Enter length of rectangle:`)
+let breadth = window.prompt(`ENter breadth`);
+let perimeter = 2*(length+breadth);
+window.alert(`Perimeter: ${perimeter}`);
+let area = length*breadth;
+window.alert(`Area: ${area}`);
  
-// let age = Number(window.prompt(`Enter element:`));
-// age+=1;
-// console.log(age);
+let age = Number(window.prompt(`Enter element:`));
+age+=1;
+console.log(age);
 
 let yearcount = 2000;
 let increasebtn = document.getElementById(`increasebtn`);
@@ -42,3 +42,4 @@ document.getElementById(`resetbtn`).onclick = function()
     yearcount = 2000;
     document.getElementById(`yearinput`).textContent = yearcount;
 }
+
