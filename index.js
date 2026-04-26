@@ -13,12 +13,12 @@ document.getElementById("mybutton").onclick= function()
 
 }
 
-let length = window.prompt(`Enter length of rectangle:`)
-let breadth = window.prompt(`ENter breadth`);
-let perimeter = 2*(length+breadth);
-window.alert(`Perimeter: ${perimeter}`);
-let area = length*breadth;
-window.alert(`Area: ${area}`);
+// let length = window.prompt(`Enter length of rectangle:`)
+// let breadth = window.prompt(`ENter breadth`);
+// let perimeter = 2*(length+breadth);
+// window.alert(`Perimeter: ${perimeter}`);
+// let area = length*breadth;
+// window.alert(`Area: ${area}`);
  
 let age = Number(window.prompt(`Enter element:`));
 age+=1;
